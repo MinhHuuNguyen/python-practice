@@ -1,2 +1,7 @@
 .ipynb_checkpoints
 .DS_Store
+python_practice_env
+brain_tumor_dataset
+data.zip
+ckpt
+train_logs
