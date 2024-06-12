@@ -5,3 +5,4 @@ brain_tumor_dataset
 data.zip
 ckpt
 train_logs
+*_env
