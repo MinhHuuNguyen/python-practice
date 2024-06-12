@@ -1,3 +1,5 @@
+#!/bin/bash
+
 process_onedrive_url() {
     local original_url="$1"
 
@@ -22,3 +24,7 @@ download_content() {
     # Download content using wget
     wget -L -O "$output_file" "$api_url"
 }
+
+
+download_content "https://1drv.ms/u/s!Ar6AxGyENvlVgatDnnkTRALcI7F3sw?e=ch9d8T" "data.zip"
+unzip data.zip
