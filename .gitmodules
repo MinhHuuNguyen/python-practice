@@ -1,0 +1,3 @@
+[submodule "pytorch/yolov5"]
+	path = pytorch/yolov5
+	url = git@github.com:MinhHuuNguyen/yolov5.git
