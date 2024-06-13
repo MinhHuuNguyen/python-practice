@@ -1,0 +1,7 @@
+path: ../data/brain_tumor_coco
+train: train.txt
+val: val.txt
+test: test.txt
+
+names:
+  0: tumor

@@ -2,6 +2,7 @@
 .DS_Store
 python_practice_env
 brain_tumor_dataset
+brain_tumor_coco
 data.zip
 ckpt
 train_logs

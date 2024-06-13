@@ -22,5 +22,7 @@ python3 detect.py --weights yolov5s.pt --source ../data/test_images/ --save-txt 
 # 6. Run brain_tumor_detection_create_coco_dataset.ipynb
 
 # 7. Train yolov5 model with brain_tumor_dataset
+python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 4
+python train.py --data ../brain_tumor_coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 4
 
 # 8. Infer yolov5 trained model
