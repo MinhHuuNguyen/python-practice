@@ -7,3 +7,4 @@ pandas==2.2.2
 tqdm==4.66.4
 matplotlib==3.9.0
 opencv-python==4.10.0.82
+albumentations==1.4.8
