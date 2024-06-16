@@ -9,6 +9,7 @@ bash data/download_data.sh
 # 4. Create environment for yolov5
 python3 -m venv yolov5_env
 . ./yolov5_env/bin/activate
+pip3 install -r additional_requirements.txt
 cd yolov5
 pip3 install -r requirements.txt
 

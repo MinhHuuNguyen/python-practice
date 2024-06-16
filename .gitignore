@@ -1,8 +1,8 @@
 .ipynb_checkpoints
 .DS_Store
-python_practice_env
 brain_tumor_dataset
 brain_tumor_coco
+carvana_image_masking_dataset
 data.zip
 ckpt
 train_logs

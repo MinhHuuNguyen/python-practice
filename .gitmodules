@@ -1,3 +1,6 @@
 [submodule "pytorch/yolov5"]
 	path = pytorch/object_detection/brain_tumor_detection/yolov5
 	url = git@github.com:MinhHuuNguyen/yolov5.git
+[submodule "pytorch/image_segmentation/carvana_image_masking/Pytorch-UNet"]
+	path = pytorch/image_segmentation/carvana_image_masking/Pytorch-UNet
+	url = git@github.com:MinhHuuNguyen/Pytorch-UNet.git
