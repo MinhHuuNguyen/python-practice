@@ -3,6 +3,7 @@
 brain_tumor_dataset
 brain_tumor_coco
 carvana_image_masking_dataset
+carvana_image_masking_ckpt
 data.zip
 ckpt
 train_logs
