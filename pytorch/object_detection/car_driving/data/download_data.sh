@@ -25,9 +25,14 @@ download_content() {
     wget -L -O "$output_file" "$api_url"
 }
 
-
-download_content "https://1drv.ms/u/s!Ar6AxGyENvlVgoZ48GK_oUxa4cqqpA?e=dNMEdm" "data.zip"
+# indian_driving_dataset_train
+download_content "https://1drv.ms/u/s!Ar6AxGyENvlVgod5u-X3wbkb8UkSnA?e=eCAqT3" "data.zip"
 unzip data.zip
 
+# # indian_driving_dataset_test
+# download_content "https://1drv.ms/u/s!Ar6AxGyENvlVgod6DLzZIntkSmi-Og?e=QnIdQf" "data.zip"
+# unzip data.zip
+
+# self_driving_cars_dataset
 download_content "https://1drv.ms/u/s!Ar6AxGyENvlVgoZ3DOxB9--4McpeGw?e=oWOhqy" "data.zip"
 unzip data.zip

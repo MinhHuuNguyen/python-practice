@@ -4,10 +4,12 @@ brain_tumor_dataset
 brain_tumor_coco
 carvana_image_masking_dataset
 carvana_image_masking_ckpt
-indian_driving_dataset
+indian_driving_dataset_train
+indian_driving_dataset_test
 indian_driving_coco
 self_driving_cars_dataset
 self_driving_cars_coco
+driving_coco
 data.zip
 ckpt
 train_logs
