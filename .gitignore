@@ -15,3 +15,5 @@ ckpt
 train_logs
 *_env
 sam_vit_h_4b8939.pth
+opencv/optical_flow/key_frames
+opencv/optical_flow/clipped
