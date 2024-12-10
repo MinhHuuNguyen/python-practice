@@ -10,7 +10,7 @@
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "MY_BUILD_SUCCESS.txt"
+                "/MY_BUILD_SUCCESS.txt"
             ]
         }
     }
