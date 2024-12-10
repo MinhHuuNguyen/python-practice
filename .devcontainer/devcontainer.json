@@ -1,3 +1,17 @@
 {
-  "build": { "dockerfile": "Dockerfile" }
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "8gb",
+        "storage": "32gb"
+    },
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "MY_BUILD_SUCCESS.txt"
+            ]
+        }
+    }
 }
