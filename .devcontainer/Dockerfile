@@ -11,4 +11,4 @@ RUN pip3 install -U pip
 RUN pip3 install jupyter notebook
 
 # create a success file after all previous steps are successful
-RUN echo "Build was successful!" > /app/build_success.txt
+RUN echo "Build was successful!" > MY_BUILD_SUCCESS.txt
