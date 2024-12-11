@@ -1,0 +1,2 @@
+opencv/basic_syntax/face_tracking.mov filter=lfs diff=lfs merge=lfs -text
+opencv/optical_flow/video/* filter=lfs diff=lfs merge=lfs -text
